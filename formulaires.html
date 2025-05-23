@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <!-- Balise form qui contiendra tous les éléments de notre formulaire -->
+    <form action="">
+        <label for="nom">Nom *</label>
+        <!--les inputs contiendront les champs du formulaire, il en existe plusieurs types-->
+        <input type="text" id="nom" placeholder="Entrez votre nom ici" required>
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" required>
+
+        <label for="checkbox">Quelles destinations choisissez vous?</label>
+        <input type="checkbox" id="italie" checked> <label for="italie">Italie</label>
+        <input type="checkbox"> France
+        <input type="checkbox"> Allemagne
+
+
+        <label for="fruits">Quel est ton fruit préféré ?</label>
+
+        <input type="radio" name="fruit" value="Cerise" id="cerise">
+        <label for="cerise">Cerise</label>
+
+        <input type="radio" name="fruit" value="Nectarine" id="nectarine">
+        <label for="nectarine">Nectarine</label>
+
+        <br>
+        <label for="textarea">commentaire</label>
+        <textarea id="textarea" maxlength="50" rows="3" cols="14" style="resize: none;"></textarea>
+
+        <label for="age">Quel est votre âge très cher?</label>
+        <input type="number" min="0">
+
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+    </form>
+</body>
+
+</html>
