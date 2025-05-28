@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les tableaux</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Jour</th>
+                <th>Smarthphone</th>
+                <th>Tablette</th>
+                <th>Portable</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td>Lundi</td>
+                <td>2</td>
+                <td>6</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Mardi</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Mercredi</td>
+                <td>5</td>
+                <td>1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Jeudi</td>
+                <td>12</td>
+                <td>10</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Vendredi</td>
+                <td>2</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>TOTAL</td>
+                <td>22</td>
+                <td>26</td>
+                <td>24</td>
+
+            </tr>
+        </body>
+    </table>
+    <style>
+        table {
+            border: 2px solid purple;
+        }
+    </style>
+
+    <hr>
+     <!-- rrowspan et colspan -->
+    <table>
+        <tr>
+            <th rowspan="2">Jour</th>
+            <th colspan="2">Matin</th>
+            <th colspan="2">Apres midi</th>
+        </tr>
+        <tr>
+            <th>8h-10h</th>
+            <th>10h-12h</th>
+            <th>13h-15h</th>
+            <th>15h-17h</th>
+        </tr>
+        <tr>
+            <th>Lundi</th>
+            <th>Cours</th>
+            <th>Cours</th>
+            <th>Sport</th>
+            <th>Anglais</th>
+        </tr>
+        <tr>
+            <td>Mardi</td>
+            <td colspan="2">Travail personnel</td>
+            <td>Cours intensif</td>
+        </tr>
+   
+    </table>
+</body>
+</html>

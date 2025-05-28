@@ -1,0 +1,37 @@
+body {
+ margin: 0; /*Espacements extérieurs à 0*/
+ padding: 0; /*Esapcementts extérieurs à 0*/
+ background: radial-gradient(circle,rgba(238, 174, 202, 1) 4%, rgba(148, 187, 233, 1) 100%);
+}
+
+/*conteneur principale*/
+
+.container{
+    width: 100%; /* largeur de l'element à 100% de la page*/
+    margin: 20px; /*une marge exterieur de Tous ls cotés (haut, droite, bas, gauche) de 20px */
+    overflow: hidden; /*Cache ce qui dépasse de l'élement */
+}
+
+/*colonne principale*/
+
+.main {
+    width: 70%; /* Largeur de la div.main de 70% */
+    
+    float: left; /* Pemet de faire flotter l'élément */
+    background-color: aquamarine;
+    border: 1px solid magenta;
+}
+
+/*Barre laterale flottante */
+.sidebar {
+    width: 30%; /*Vu que , main a une width de 70%, on rajoute les 30% manquants */
+    float: right;
+    background-color: brown;
+   
+}
+
+/* clear pour remttre les élémentz "normaux", les suivants reviendront en dessous */
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,117 @@
+/* tous les éléménts de la page  , tout les truc jaune sont des selecteurs */
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(82, 180, 245, 0.952);
+}
+
+/* 3 solutions pour aller chercher le h2 de mon fils */
+
+main > section > div:last-child > h2 {
+    font-family: cursive;
+}
+
+/* main > section > div:first-child > h2 pour la pemiere div */
+
+/* 2 eme solution */
+
+#mon-h2 {
+    font-family: fantasy;
+}
+
+/* LES NTH = nth --> N ieme */ 
+
+main > section > div:nth-child(2){
+    color: brown;
+}
+/* 2 solutions si on a un css identique pour plusieurs éléments */
+
+/* premiere solution : aller checher chaque element à la main séparés pr une "," (qui veut dir passons au prohaine élément */
+main > section > div:first-child > h2 , main > section > div:first-child > p {
+    color: blue;
+}
+
+/* 2 éme solution : Les classes  */
+
+.center {
+    text-align: center;
+}
+
+.red {
+    background-color: #f3eea1;
+}
+
+/* id = marge-h2 */
+
+#marge-h2 {
+    margin: 100px;
+}
+
+/* vrai css */
+
+nav ul{
+   display: flex; 
+   flex-direction: row; /* disposition en ligne (par default quand on met display :flex) , si on veut changer on a le 'mode' column*/ 
+   justify-content: space-evenly; /* justify-content aligne les element flex horizontalment SEULEMENTsi flex direction en row  */
+   height: 100px;
+   list-style: none; 
+
+   align-items: end;  /* comme justify content mais verticalement sauf si flex direction est en column , dans ce cas il agira horizentalement */
+}
+
+/* nav ul li {
+    list-style-type:lower-greek;
+ } */
+
+a{
+    text-decoration: none;
+    color: azure;
+    font-size: 25px;
+}
+li:hover{
+    transform: scale(1.2)
+}
+
+/* hover : pseudo class qui permet de changer le css lors d'un survole a la souris  */
+.liens:hover{
+    color: rgb(234, 238, 17); 
+}
+
+/* Backround image */
+#img-chattons{
+    background-image: url(../img/ENCART-GUIDE-PETITES-RACES-CHAT-DESKTOP.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 200px;
+}
+
+#marge-h2{
+    width: fit-content;
+    margin: 20px auto;   
+
+    /* Margin (et padding) : plusieurs facon de faire : 
+    
+    pour les 4 memes 'haut, droite, bas, gauche) --> margin : 10 px
+    pour en haut/bs et gauche/droite--> margin : 20px 20 px 
+    pour cibler chacun --> margin : 10px 30p 40px 20px 
+    pour les margin/paddin à 0  -> margin :0
+    */
+}
+
+/* Grid */
+
+
+main>section>div:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: 30px 0;
+}
+
+

@@ -1,0 +1,53 @@
+* {  margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#intro{
+    color: blue;
+}
+
+.note{
+    background-color: yellow;
+}
+
+#important{
+    background-color: blanchedalmond;
+}
+
+/* id est prioritaire à la classe */
+
+.cta{
+    background-color: rgb(12, 184, 69);
+    color: antiquewhite;
+    padding: 5px;
+}
+
+.info{
+    background-color: brown;
+}
+
+/* 2eme classe prioritaire */
+
+#sasa{
+    color: aqua;
+}
+
+.carte{
+    border: 3px solid;
+    box-shadow: 5px 5x 3x red;
+    padding: 8px;
+}
+
+#acceuil h1{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: blueviolet;
+    }
+
+.actif{
+    background-color: rgb(123, 172, 9);
+}
+
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
