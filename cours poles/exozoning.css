@@ -1,0 +1,21 @@
+body{
+    width: auto;
+    margin: auto;
+}
+
+#contenu{
+    background-color: rgb(245, 221, 232);
+}
+
+
+header , footer{
+    background-color: rgb(247, 137, 137);
+    height: 80px;
+    padding: 20px auto;
+    text-align:start;
+ 
+}
+
+section{
+    height: 700px;
+}

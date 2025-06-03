@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+/* #conteneur {
+    margin: 0 auto;
+}
+ */
+body{
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);;
+}
+
+header {
+    color: rgb(103, 47, 136);
+    /* height: 60px; */
+    text-align: center;
+    padding-top:0px;
+    line-height: 60px;
+    font-size: 60px;
+    font-family: 'Shadows Into Light', sans-serif;
+    ;
+}
+
+nav {
+    height: 0px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', sans-serif;
+    color: rgb(201, 38, 179);
+}
+
+img{
+    width:450px;
+    height:400px ;
+    /* object-fit:contain; */
+    border-radius: 26% 74% 24% 76% / 63% 45% 55% 37%  ;
+    padding-top: 140px;   
+}
+
+img:hover{
+    transform: scale(1.2)
+}
+
+.chats{
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+footer{
+    color: rgb(103, 47, 136);
+    /* height: 60px; */
+    text-align: center;
+    padding-top:0px;
+    line-height: 60px;
+    font-size: 60px;
+    font-family: 'Shadows Into Light', sans-serif;
+}
