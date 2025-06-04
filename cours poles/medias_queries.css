@@ -1,0 +1,25 @@
+.zone{
+    background-color: rgb(138, 109, 72);
+    color: white;
+    padding: 10px;
+}
+
+@media(min-width: 768px) {
+    .zone{
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width: 992px) {
+    .zone {
+        background-color: rgb(255, 0, 212);
+        font-size: 30px;
+        text-align: center;
+    }      
+}
+
+@media (min-width: 1200px) {
+    .zone {
+        background-color: blueviolet;
+    }
+}

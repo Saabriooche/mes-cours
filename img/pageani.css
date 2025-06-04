@@ -48,9 +48,12 @@ img:hover{
 }
 
 footer{
+    display: flex;
+    justify-content:space-around;
     color: rgb(103, 47, 136);
     /* height: 60px; */
-    text-align: center;
+    text-align:center;
+    justify-content:space-between;
     padding-top:0px;
     line-height: 60px;
     font-size: 60px;
